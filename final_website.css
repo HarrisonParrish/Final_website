@@ -1,51 +1,142 @@
-   body {
-        font-family: sans-serif;
-        margin: 0;
+body {
+font-family: sans-serif;
+margin: 0;
+}
+
+header {
+background-color: #00b8d4;
+color: #fff;
+padding: 20px;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 10px;
+}
+
+main {
+padding: 20px;
+}
+
+section {
+margin-bottom: 20px;
+}
+
+section h1 {
+margin-top: 0;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+form label {
+display: block;
+margin-bottom: 10px;
+}
+
+form input, form textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #00b8d4;
+}
+
+form button {
+background-color: #00b8d4;
+color: #fff;
+padding: 10px;
+border: none;
+cursor: pointer;
+
+}
+
+#date-time {
+color: #ccc;
+font-size: 12px;
+}
+
+/* Add more styling to the date-time element */
+#date-time {
+text-align: right;
+margin-bottom: 20px;
+}
+
+/* Add more styling to the form elements */
+form input, form textarea {
+border-radius: 5px;
+}
+
+form button {
+border-radius: 5px;
+}
+
+/* Add more styling to the navigation */
+nav {
+text-align: right;
+}
+
+nav li {
+margin-left: 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #333;
     }
-    header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-    }
-    nav ul {
-        margin: 0;
-        padding: 0;
-    }
-    nav li {
-        display: inline-block;
-        margin-right: 10px;
-    }
-    nav a {
-        color: #fff;
-        text-decoration: none;
-    }
-    main {
-        padding: 20px;
-    }
-    section {
-        margin-bottom: 20px;
-    }
-    section h1 {
-        margin-top: 0;
-    }
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    form label {
-        display: block;
-        margin-bottom: 10px;
-    }
-    form input, form textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-    }
-    form button {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        border: none;
-        cursor: pointer;
-    }
+
+/* Add more styling to the sections */
+section {
+padding: 20px;
+border-radius: 5px;
+background-color: #f8f8f8;
+}
+
+section h1 {
+font-size: 18px;}
+
+/* Add more styling to the header */
+header {
+text-align: center;
+font-size: 24px;
+}
+
+header h1 {
+margin: 0;
+}
+
+/* Add more styling to the footer */
+footer {
+background-color: #00b8d4;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+/* Add more styling to the unordered lists */
+ul li {
+margin-bottom: 10px;
+}
+
+ul li:last-child {
+margin-bottom: 0;
+}
+
+/* Add more styling to the form buttons */
+form button:hover {
+background-color: #333;
+}
+
+/* Add more styling to the main section */
+main {
+background-color: #f8f8f8;
+border-radius: 5px;
+}
+
+
+
